@@ -64,7 +64,8 @@
     ]
   },
   "dependencies": {
-    "@actions/core": "^1.10.1"
+    "@actions/core": "^1.10.1",
+    "javascript-action": "file:"
   },
   "devDependencies": {
     "@babel/core": "^7.24.7",
