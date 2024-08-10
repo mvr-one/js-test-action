@@ -5,7 +5,7 @@ const { wait } = require('./wait')
  * The main function for the action.
  * @returns {Promise<void>} Resolves when the action is complete.
  */
-async function run () {
+async function run() {
   try {
     const ms = core.getInput('milliseconds', { required: true })
 
